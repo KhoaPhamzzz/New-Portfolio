@@ -2,7 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
-import '../css/heroSection.css';
+import '../css/HeroSection.css';
 
 const TAB_DATA = [
   {
