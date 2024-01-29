@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import '../css/heroSection.css';
+import '../css/HeroSection.css';
 
 const variants = {
   default: { width: 0 },
