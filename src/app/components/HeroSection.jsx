@@ -18,7 +18,7 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className=" text-color-transition text-transparent bg-clip-text">
-            👋 Hello, I&apos;m{" "}
+            <span class="wave">👋</span> Hello, I&apos;m{" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -38,7 +38,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I design and code beautifully simple things, and I love what I do.
+          I love exploring and creating 🚀. I'm a lifelong learner 📖, and I love what I do.
           </p>
           <div>
             <Link
