@@ -21,7 +21,7 @@ export async function POST(req, res) {
       react: (
         <>
           <h1>{subject}</h1>
-          <p>Sender's email: {email}</p>
+          <p>Sender&apos;s email: {email}</p>
           <p>{message}</p>
         </>
       ),
@@ -36,7 +36,7 @@ export async function POST(req, res) {
         <>
           <h1>Thank you for reaching out!</h1>
           <p>Hi, I have received your message regarding: {subject}.</p>
-          <p>I'll get back to you as soon as possible.</p>
+          <p>I&apos;ll get back to you as soon as possible.</p>
           <br/>
           <p>Best regards,</p>
           <p>[Khoa Anh Pham]</p>
