@@ -38,7 +38,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I love exploring and creating 🚀. I'm a lifelong learner 📖, and I love what I do.
+          I love exploring and creating 🚀. I&apos;m a lifelong learner 📖, and I love what I do.
           </p>
           <div>
             <Link
