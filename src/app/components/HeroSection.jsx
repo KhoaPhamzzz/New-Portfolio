@@ -37,22 +37,22 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I love exploring and creating 🚀. I&apos;m a lifelong learner 📖, and I love what I do.
+          <p className="font-abc font-bold text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
+          I love exploring and creating 🚀. I&apos;m a lifelong learner, and I love what I do. A passionate Developer based in Australia.📍
           </p>
           <div>
             <Link
               href="/#contact"
               className="bg-color-transition px-1 inline-block py-1 w-full sm:w-fit rounded-full mr-4 hover:bg-slate-800 text-white"
             >
-            <span className=" hover:bg-slate-800 rounded-full px-5 py-2 inline-block">Hire Me</span>
+            <span className="font-abc font-bold hover:bg-slate-800 rounded-full px-5 py-2 inline-block">Hire Me</span>
             </Link>
             <a
               href="/khoa-cv.pdf" 
               download="khoa-cv.pdf"
               className="bg-color-transition px-1 inline-block py-1 w-full sm:w-fit rounded-full b hover:bg-slate-800 text-white mt-3"
             >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              <span className="font-abc font-bold block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
             </a>

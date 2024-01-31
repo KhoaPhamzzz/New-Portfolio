@@ -8,6 +8,7 @@ import InstaIcon from "../../../public/insta-icon.png";
 
 import Link from "next/link";
 import Image from "next/image";
+import '../css/HeroSection.css';
 
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
@@ -48,7 +49,7 @@ const EmailSection = () => {
       id="contact"
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
-      <div className=" bg-color-transition bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
+      <div className=" bg-color-transition circle-size bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
@@ -69,11 +70,11 @@ const EmailSection = () => {
           <Link href="https://www.facebook.com/khoaanh2301" target="_blank">
             <Image class="-mt-0.5 h-[52px] w-[45px]" src={MetaIcon} alt="Meta Icon" />
           </Link>
-          <Link href="https://www.facebook.com/khoaanh2301" target="_blank">
+          <Link href="https://www.instagram.com/akpham_23/" target="_blank">
             <Image class="-mt-0.5 h-[52px] w-[50px]" src={InstaIcon} alt="Instagram Icon" />
           </Link>
           <Link href="mailto:akpham28@gmail.com" target="_blank">
-            <Image class="-mt-0.5 h-[52px] w-[45px]" src={EmailIcon} alt="Email Icon" />
+            <Image class="-mt-1 h-[55px] w-[47px]" src={EmailIcon} alt="Email Icon" />
           </Link>
           
         </div>

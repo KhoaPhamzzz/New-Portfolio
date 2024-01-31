@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap');
+
 .wave {
   animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s;        /* Change to speed up or slow down */
@@ -112,4 +114,14 @@
 .border-color-transition {
   animation: borderColorChange 20s linear infinite alternate;
   border: 2px solid; /* Example border style, you can adjust as needed */
+}
+
+
+@media (max-width: 768px) {
+  .circle-size {
+      height: 10rem; /* Adjusted height */
+      width: 10rem; /* Adjusted width */
+      top: 100%; /* Adjusted vertical position */
+      /* Add any other property adjustments specific to the circle here */
+  }
 }

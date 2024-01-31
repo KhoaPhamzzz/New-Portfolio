@@ -19,6 +19,9 @@ module.exports = {
       primary: colors.purple,
       secondary: colors.pink,
     },
+    fontFamily: {
+      abc: ["Montserrat","sans-serif"],
+    },
   },
   plugins: [],
 };
