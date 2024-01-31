@@ -80,7 +80,7 @@ const TAB_DATA = [
       <div class="flex flex-wrap justify-center space-x-4">
         <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
             <Image class="h-[60px] w-[60px]" src={RIcon} alt="R Icon" />
-            <p class="font-abc small">R Language</p>
+            <p class="text-center font-abc small">R Language</p>
         </div>
         <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
             <Image class="h-[60px] w-[60px]" src={RubyIcon} alt="Ruby Icon" />
@@ -109,16 +109,16 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <div className="flex items-center space-x-4"> {/* Flex container */}
-        <p className="font-abc font-bold mb-0"> {/* Removed margin-bottom */}
+      <div className="flex flex-wrap justify-center items-center space-x-4 text-center">
+        <p className="font-abc font-bold mb-0 w-full sm:w-auto"> 
           Bachelor of Computer Science (Data Science)
         </p>
         <a
-          href="/Testamur Swinburne Khoa Pham.pdf" 
+          href="/Testamur Swinburne Khoa Pham.pdf"
           download="Testamur Swinburne Khoa Pham.pdf"
-          className="transition duration-300 ease-in-out hover:scale-110 sm:w-fit rounded-full text-black"
+          className="w-full sm:w-auto transition duration-300 ease-in-out hover:scale-110 rounded-full text-black mt-2 sm:mt-0"
         >
-          <span className="font-abc bg-white hover:bg-slate-200 font-bold rounded-full px-5 py-2">
+          <span className="font-abc bg-white hover:bg-slate-200 font-bold rounded-full px-5 py-2 sm:px-3 sm:py-1 block">
             Download Testamur
           </span>
         </a>
