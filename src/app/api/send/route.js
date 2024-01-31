@@ -9,7 +9,7 @@ export async function POST(req, res) {
   console.log(email, subject, message);
 
   try {
-    // Sending the actual message to your email
+    // Sending the actual message to your email with preserved formatting
     await resend.emails.send({
       from: fromEmail,
       replyTo: email, // Setting the Reply-To header to the sender's email
@@ -20,9 +20,9 @@ export async function POST(req, res) {
       },
       react: (
         <>
-          <h1>{subject}</h1>
           <p>Sender&apos;s email: {email}</p>
-          <p>{message}</p>
+          <h1>{subject}</h1>
+          <pre>{message}</pre> {/* Use <pre> tag to preserve formatting */}
         </>
       ),
     });
