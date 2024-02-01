@@ -42,7 +42,7 @@ const projectsData = [
     skilluse: "Next.js Tailwind JavaScript",
     detailedDescription: "Welcome to my portfolio website, a concise yet comprehensive platform where I highlight my skills, technologies, and a curated selection of past and present projects.",
     image: "/images/projects/4.png",
-    tag: ["All", "Data", "Web"],
+    tag: ["All", "Web"],
     gitUrl: "https://github.com/KhoaPhamzzz/New-Portfolio",
     previewUrl: "https://khoaphams.com",
   },
