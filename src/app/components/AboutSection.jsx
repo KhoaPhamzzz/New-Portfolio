@@ -140,7 +140,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.avif" width={500} height={600} alt="Side Photo"/>
+        <Image class="object-scale-down [h-684px] w-[467px]" src="/images/about-image.jpg" width={3734} height={5468} alt="Side Photo" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="font-abc text-color-transition text-2xl font-black text-white mb-4">About Me</h2>
           <h3 className="font-abc text-4xl font-bold text-white mb-4">A dedicated Front-end Developer based in Australia 📍</h3>
