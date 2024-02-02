@@ -71,7 +71,7 @@ const projectsData = [
     title: "Multivariate Data Analysis",
     skilluse: "R RStudio",
     detailedDescription: "This project involves an in-depth analysis of three diverse datasets: measurements of Alaskan grizzly bears, chemical properties of Italian wines, and housing satisfaction responses. The primary objective is to apply advanced statistical methods to gain insights and make informed decisions.",
-    image: "/images/projects/7.png",
+    image: "/images/projects/6.png",
     tag: ["All", "Data"],
     gitUrl: "https://github.com/KhoaPhamzzz/Multivariate-Data-Analysis-for-Grizzly-Bears-Italian-Wines-and-Housing-Satisfaction",
     previewUrl: "https://drive.google.com/file/d/1FWGUeoFlcSOYcH9O0pg-nLo6UPpLSGIo/view?usp=sharing",
