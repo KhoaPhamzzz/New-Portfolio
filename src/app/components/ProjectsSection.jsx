@@ -8,9 +8,9 @@ import '../css/HeroSection.css';
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    skilluse: "HTML CSS JAVA",
-    detailedDescription: "A project description is a high-level overview ",
+    title: "Full-Stack E-Commerce Web",
+    skilluse: "RectJs MongoDB Express NodeJs",
+    detailedDescription: "This online shopping platform features a fully functional user login/logout system, a seamlessly operational shopping cart, and an intuitive and user-friendly interface for an enhanced shopping experience.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -18,10 +18,10 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Photography Portfolio Website",
-    skilluse: "HTML D3 JAVA",
-    detailedDescription: "Detailed description for Photography Portfolio Website...",
-    image: "/images/projects/2.png",
+    title: "Landing Page",
+    skilluse: "HTML CSS JavaScript",
+    detailedDescription: "Coming soon",
+    image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
