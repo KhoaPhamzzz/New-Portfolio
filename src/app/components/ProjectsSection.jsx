@@ -49,7 +49,7 @@ const projectsData = [
   {
     id: 5,
     title: "Water Management Website",
-    skilluse: "Next Tailwind JavaScript PHP MySQL",
+    skilluse: "Next Tailwind JavaScript",
     detailedDescription: "This project aims to create a user-friendly website for real-time monitoring of essential water parameters in aquaculture. Users, including administrators and the public, can access live data on pH, H2S, NO3, NH4, and temperature (T0) from a central server. This innovative solution enhances aquaculture practices and sustainability in Binh Dinh Province.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],

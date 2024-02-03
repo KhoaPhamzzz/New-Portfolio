@@ -48,17 +48,18 @@ const ProjectCard = ({ imgUrl, title, gitUrl, previewUrl, detailedDescription, s
         {/* Dropdown Content with Smooth Transition */}
         <div className={`text-sm mt-2 text-[#ADB7BE] overflow-hidden transition-all ease-in-out ${isDropdownOpen ? 'max-h-96 opacity-100 duration-700' : 'max-h-0 opacity-0 duration-500'}`}>
           <p>{detailedDescription}</p>
-          <div className="pt-3 skills-container flex flex-row">
+          <div className="pt-3 skills-container flex flex-wrap">
             {skilluse.split(" ").map((skill, index) => (
               <div
                 key={index}
-                className="text-xs text-white w-[70px] h-6 flex items-center justify-center rounded-full bg-zinc-800 mr-2"
+                className="text-xs text-white w-[70px] h-6 flex items-center justify-center rounded-full bg-zinc-800 mr-2 mb-2" // added mb-2 for margin-bottom
               >
                 {skill}
               </div>
             ))}
           </div>
         </div>
+
       </div>
     </div>
   );
