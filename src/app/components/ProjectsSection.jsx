@@ -21,7 +21,7 @@ const projectsData = [
     title: "Dental Landing Page",
     skilluse: "Nextjs Tailwind",
     detailedDescription: "Introducing a sleek and stylish landing page project designed exclusively for a cutting-edge dental clinic. Our emphasis lies solely on crafting a captivating frontend experience that not only showcases the clinic's excellence but also leaves a lasting impression on visitors.",
-    image: "/images/projects/2.png",
+    image: "/images/projects/2.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/KhoaPhamzzz/landing-page",
     previewUrl: "https://landing-page-beta-sable.vercel.app/",
