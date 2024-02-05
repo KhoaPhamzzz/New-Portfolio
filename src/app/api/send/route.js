@@ -30,7 +30,7 @@ export async function POST(req, res) {
     // Sending a thank you message to the sender
     await resend.emails.send({
       from: fromEmail,
-      to: [email],
+      to: [fromEmail,email],
       subject: `Thank you for contacting me!`,
       react: (
         <>
