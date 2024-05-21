@@ -8,16 +8,26 @@ import '../css/HeroSection.css';
 const projectsData = [
   {
     id: 1,
-    title: "Full-Stack E-Commerce Web",
-    skilluse: "RectJs MongoDB Express NodeJs",
-    detailedDescription: "This online shopping platform features a fully functional user login/logout system, a seamlessly operational shopping cart, and an intuitive and user-friendly interface for an enhanced shopping experience.",
-    image: "/images/projects/1.png",
+    title: "Ellenex Monitoring Platform",
+    skilluse: "Angular InfluxDB Tailwind Figma TypeScript",
+    detailedDescription: "Among a team of senior developers, I played a significant role in crafting the dashboard and device pages of Ellenex.io, a platform for monitoring Wirepass, NBiot, and Lowerwan devices. Leveraging Angular for frontend development and designing with Figma, I ensured an intuitive interface that facilitates efficient device management. My contributions focused on enhancing usability, resulting in a seamless experience for users navigating the dashboard and device pages.",
+    image: "/images/projects/ellenexio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://ellenex.net/",
+    previewUrl: "https://ellenex.net/",
   },
   {
     id: 2,
+    title: "Ellenex's API",
+    skilluse: "Postman Angular Swagger Tailwind",
+    detailedDescription: "API documentation project: A dynamic Angular-based platform seamlessly integrating Wirepass, NBiot, and Lowerwan devices. Designed with developers in mind, it offers streamlined data exchange and communication. Leveraging Swagger UI and Editor, alongside Postman for endpoint testing, it provides comprehensive documentation, editing capabilities, and robust testing. Dive in to unlock the full potential of device connectivity and accelerate your development journey",
+    image: "/images/projects/ellenexapi.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/KhoaPhamzzz/Ellenex-API-swagger-ui-done",
+    previewUrl: "https://api.ellenex.net/",
+  },
+  {
+    id: 3,
     title: "Dental Landing Page",
     skilluse: "Nextjs Tailwind",
     detailedDescription: "Introducing a sleek and stylish landing page project designed exclusively for a cutting-edge dental clinic. Our emphasis lies solely on crafting a captivating frontend experience that not only showcases the clinic's excellence but also leaves a lasting impression on visitors.",
@@ -27,7 +37,7 @@ const projectsData = [
     previewUrl: "https://landing-page-beta-sable.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Data Visualization Website",
     skilluse: "HTML CSS JavaScript D3.js",
     detailedDescription: "This elegantly designed website offers comprehensive statistics on overseas migration to Australia over the past decade. With its captivating blend of interactive geo-maps, dynamic bar charts, and informative line graphs, it provides an immersive and visually appealing way to explore the data.",
@@ -37,7 +47,7 @@ const projectsData = [
     previewUrl: "https://data-visualization-d3-psi.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Next Portfolio Website",
     skilluse: "Next.js Tailwind JavaScript",
     detailedDescription: "Welcome to my portfolio website, a concise yet comprehensive platform where I highlight my skills, technologies, and a curated selection of past and present projects.",
@@ -47,7 +57,7 @@ const projectsData = [
     previewUrl: "https://khoaphams.com",
   },
   {
-    id: 5,
+    id: 6,
     title: "Water Management Website",
     skilluse: "Next Tailwind JavaScript",
     detailedDescription: "This project aims to create a user-friendly website for real-time monitoring of essential water parameters in aquaculture. Users, including administrators and the public, can access live data on pH, H2S, NO3, NH4, and temperature (T0) from a central server. This innovative solution enhances aquaculture practices and sustainability in Binh Dinh Province.",
@@ -57,7 +67,7 @@ const projectsData = [
     previewUrl: "https://water-management-website-info-page.vercel.app/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Manova Test",
     skilluse: "R RStudio",
     detailedDescription: "This project aims to utilize multivariate analyses in R to examine and compare the academic performance of 240 randomly selected year 10 students from diverse socio-economic backgrounds, with a particular focus on their performance in Mathematics and English.",
@@ -67,7 +77,7 @@ const projectsData = [
     previewUrl: "https://drive.google.com/file/d/1beIn80xEUnrOZYF6HsFWOSKEgIcAMLRR/view?usp=sharing",
   },
   {
-    id: 7,
+    id: 8,
     title: "Multivariate Data Analysis",
     skilluse: "R RStudio",
     detailedDescription: "This project involves an in-depth analysis of three diverse datasets: measurements of Alaskan grizzly bears, chemical properties of Italian wines, and housing satisfaction responses. The primary objective is to apply advanced statistical methods to gain insights and make informed decisions.",
@@ -75,6 +85,16 @@ const projectsData = [
     tag: ["All", "Data"],
     gitUrl: "https://github.com/KhoaPhamzzz/Multivariate-Data-Analysis-for-Grizzly-Bears-Italian-Wines-and-Housing-Satisfaction",
     previewUrl: "https://drive.google.com/file/d/1FWGUeoFlcSOYcH9O0pg-nLo6UPpLSGIo/view?usp=sharing",
+  },
+  {
+    id: 9,
+    title: "Full-Stack E-Commerce Web",
+    skilluse: "RectJs MongoDB Express NodeJs",
+    detailedDescription: "This online shopping platform features a fully functional user login/logout system, a seamlessly operational shopping cart, and an intuitive and user-friendly interface for an enhanced shopping experience.",
+    image: "/images/projects/1.png",
+    tag: ["All", "Web"],
+    gitUrl: "/",
+    previewUrl: "/",
   },
 ];
 

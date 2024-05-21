@@ -9,6 +9,7 @@ import '../css/skill.css';
 import HtmlIcon from "../../../public/html-icon.png";
 import CssIcon from "../../../public/css-icon.png";
 import JavascriptIcon from "../../../public/javascript-icon.png";
+import TypescriptIcon from "../../../public/typescript10.svg";
 import TailwindIcon from "../../../public/tailwind-icon.png";
 import NextjsIcon from "../../../public/nextjs-icon.svg";
 import ReactIcon from "../../../public/react-icon.png";
@@ -22,6 +23,10 @@ import SPSSIcon from "../../../public/spss-icon.svg";
 import PythonIcon from "../../../public/python-icon.svg";
 import CIcon from "../../../public/c-icon.svg";
 import CsharpIcon from "../../../public/csharp-icon.svg";
+import AngularIcon from "../../../public/angular.svg";
+import PostmanIcon from "../../../public/postman.svg";
+import FigmaIcon from "../../../public/figma.svg";
+import SwaggerIcon from "../../../public/swagger.svg";
 
 
 const TAB_DATA = [
@@ -41,6 +46,14 @@ const TAB_DATA = [
         <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
             <Image class="h-[60px] w-[60px]" src={JavascriptIcon} alt="Javascript Icon" />
             <p class="font-abc small">Javascript</p>
+        </div>
+        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
+            <Image class="h-[60px] w-[60px]" src={AngularIcon} alt="Angular Icon" />
+            <p class="font-abc small">Angular</p>
+        </div>
+        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
+            <Image class="h-[60px] w-[60px]" src={TypescriptIcon} alt="Typescript Icon" />
+            <p class="font-abc small">TypeScipt</p>
         </div>
         <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
             <Image class="h-[60px] w-[60px]" src={TailwindIcon} alt="Tailwind Icon" />
@@ -70,6 +83,19 @@ const TAB_DATA = [
             <Image class="h-[60px] w-[55px]" src={AdobexdIcon} alt="AdobeXD Icon" />
             <p class="font-abc small">Adobe XD</p>
         </div>
+        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
+            <Image class="h-[60px] w-[55px]" src={FigmaIcon} alt="Figma Icon" />
+            <p class="font-abc small">Figma</p>
+        </div>
+        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
+            <Image class="h-[60px] w-[55px]" src={PostmanIcon} alt="Postman Icon" />
+            <p class="font-abc small">Postman</p>
+        </div>
+        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
+            <Image class="h-[60px] w-[55px]" src={SwaggerIcon} alt="Swagger Icon" />
+            <p class="font-abc small">Swagger</p>
+        </div>
+
     </div>
     ),
   },
