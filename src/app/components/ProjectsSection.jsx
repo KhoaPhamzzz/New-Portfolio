@@ -96,6 +96,16 @@ const projectsData = [
     gitUrl: "/",
     previewUrl: "/",
   },
+  {
+    id: 10,
+    title: "Ellenex's API",
+    skilluse: "Postman Angular Swagger Tailwind",
+    detailedDescription: "API documentation project: A dynamic Angular-based platform seamlessly integrating Wirepass, NBiot, and Lowerwan devices. Designed with developers in mind, it offers streamlined data exchange and communication. Leveraging Swagger UI and Editor, alongside Postman for endpoint testing, it provides comprehensive documentation, editing capabilities, and robust testing. Dive in to unlock the full potential of device connectivity and accelerate your development journey",
+    image: "/images/projects/ellenexapi.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/KhoaPhamzzz/Ellenex-API-swagger-ui-done",
+    previewUrl: "https://api.ellenex.net/",
+  },
 ];
 
 const ProjectsSection = () => {
