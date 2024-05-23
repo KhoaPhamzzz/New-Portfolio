@@ -4,7 +4,7 @@ import '../css/skill.css';
 
 const WorkExperiences = () => {
   return (
-    <section className="py-8 text-white">
+    <section id="work-experiences" className="py-8 text-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
             <h2 className="font-abc text-color-transition text-4xl font-black mb-4">Experiences</h2>
