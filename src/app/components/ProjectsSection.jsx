@@ -81,7 +81,7 @@ const projectsData = [
     title: "Multivariate Data Analysis",
     skilluse: "R RStudio",
     detailedDescription: "This project involves an in-depth analysis of three diverse datasets: measurements of Alaskan grizzly bears, chemical properties of Italian wines, and housing satisfaction responses. The primary objective is to apply advanced statistical methods to gain insights and make informed decisions.",
-    image: "/images/projects/6.png",
+    image: "/images/projects/7.png",
     tag: ["All", "Data"],
     gitUrl: "https://github.com/KhoaPhamzzz/Multivariate-Data-Analysis-for-Grizzly-Bears-Italian-Wines-and-Housing-Satisfaction",
     previewUrl: "https://drive.google.com/file/d/1FWGUeoFlcSOYcH9O0pg-nLo6UPpLSGIo/view?usp=sharing",
@@ -95,16 +95,6 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "/",
     previewUrl: "/",
-  },
-  {
-    id: 10,
-    title: "Ellenex's API",
-    skilluse: "Postman Angular Swagger Tailwind",
-    detailedDescription: "API documentation project: A dynamic Angular-based platform seamlessly integrating Wirepass, NBiot, and Lowerwan devices. Designed with developers in mind, it offers streamlined data exchange and communication. Leveraging Swagger UI and Editor, alongside Postman for endpoint testing, it provides comprehensive documentation, editing capabilities, and robust testing. Dive in to unlock the full potential of device connectivity and accelerate your development journey",
-    image: "/images/projects/ellenexapi.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/KhoaPhamzzz/Ellenex-API-swagger-ui-done",
-    previewUrl: "https://api.ellenex.net/",
   },
 ];
 
