@@ -17,8 +17,8 @@ const WorkExperiences = () => {
             <p className="mb-4 text-base font-normal">Melbourne VIC</p>
             <p className="text-base font-normal mb-2">During my three-month internship at Ellenex, a leading provider of serverless solutions, I honed my full stack development skills by actively participating in both front-end and back-end projects. My role involved:</p>
             <ul className="list-disc pl-5 ml-3 text-sm">
-                <li className="mb-1"><strong>UI/UX Design:</strong> I designed the platform's dashboard and a new hierarchy system using Figma, focusing on ease of use and simplified navigation.</li>
-                <li className="mb-1"><strong>Front-End Development:</strong>I implemented my designs with Angular and TypeScript, and addressed bugs in both the platform's logic and front end.</li>
+                <li className="mb-1"><strong>UI/UX Design:</strong> I designed the platform&apos;s dashboard and a new hierarchy system using Figma, focusing on ease of use and simplified navigation.</li>
+                <li className="mb-1"><strong>Front-End Development:</strong>I implemented my designs with Angular and TypeScript, and addressed bugs in both the platform&apos;s logic and front end.</li>
                 <li className="mb-1"><strong>API Documentation:</strong> I used Postman to document API endpoints and created a static website to host these documents, facilitating easier access for developers.</li>
                 <li className="mb-1"><strong>Collaboration and Testing:</strong> I worked closely with various teams to integrate designs and improve platform functionalities based on user feedback.</li>
                 <li className="mb-1"><strong>Adaptation and Learning:</strong> I quickly adapted to new technologies and participated in Agile processes to continually refine our work.</li>
