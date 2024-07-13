@@ -135,20 +135,55 @@ const TAB_DATA = [
     title: "Certifications",
     id: "certifications",
     content: (
-      <div className="flex flex-wrap justify-center items-center space-x-4 text-center">
-        <p className="font-abc font-bold mb-0 w-full sm:w-auto"> 
-          Bachelor of Computer Science (Data Science)
-        </p>
-        <a
-          href="/Testamur Swinburne Khoa Pham.pdf"
-          download="Testamur Swinburne Khoa Pham.pdf"
-          className="w-full sm:w-auto transition duration-300 ease-in-out hover:scale-110 rounded-full text-black mt-2 sm:mt-0"
-        >
-          <span className="font-abc bg-white hover:bg-slate-200 font-bold rounded-full px-5 py-2 sm:px-3 sm:py-1 block">
-            Download Testamur
-          </span>
-        </a>
+      <div className="flex flex-col space-y-4">
+        <div className="flex flex-col justify-between w-full">
+          <p className="font-abc text-xs text-gray-400">
+            Aug. 2019 – July. 2023
+          </p>
+          <p className="font-abc font-bold text-base">
+            Bachelor of Computer Science
+          </p>
+          <p className="font-abc text-sm text-gray-400 font-bold">
+            Swinburne University Technology, Melbourne Australia
+          </p>
+          
+          <div className="w-full pt-2">
+            <a href="/Testamur Swinburne Khoa Pham.pdf" download="Testamur Swinburne Khoa Pham.pdf" className="w-full transition duration-300 ease-in-out rounded-full text-black inline-block">
+              <span className="font-abc bg-white hover:bg-slate-200 font-bold rounded-full px-3 py-1 text-xs md:text-sm lg:text-base block text-center">
+                Download Testamur
+              </span>
+            </a>
+          </div>
+        </div>
+        
+        <div className="flex flex-col justify-between w-full">
+          <p className="font-abc text-xs text-gray-400">
+            March. 2019 – Jun. 2019
+          </p>
+          <p className="font-abc font-bold text-base">
+          Bachelor of Engineering (Honours)
+          </p>
+          <p className="font-abc text-sm text-gray-400 font-bold">
+          Swinburne University Technology, Melbourne Australia 
+          </p>
+        </div>
+
+        <div className="flex flex-col justify-between w-full">
+          <p className="font-abc text-xs text-gray-400">
+            Feb. 2013 – Nov. 2018
+          </p>
+          <p className="font-abc font-bold text-base">
+          SACE(South Australia Certificate of Education)
+          </p>
+          <p className="font-abc text-sm text-gray-400 font-bold">
+          Norwood Morialta High School 
+          </p>
+        </div>
       </div>
+
+      
+
+
     ),
   },
 ];
@@ -189,7 +224,7 @@ const AboutSection = () => {
               active={tab === "othertechs"}
             >
               {" "}
-              Other Skills{" "}
+              Other Software's Skills{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
