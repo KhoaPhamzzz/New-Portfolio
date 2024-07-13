@@ -21,7 +21,7 @@ const WorkExperiences = () => {
                 <li>Determines software and hardware requirements to provide solutions to problems</li>
                 <li>Responds to queries on software and hardware problems</li>
                 <li>Installs and downloads appropriate software and drivers</li>
-                <li>Adapting existing programs to meet users' requirements</li>
+                <li>Adapting existing programs to meet users&apos; requirements</li>
                 <li>Ensuring efficient use of applications and equipment</li>
                 <li>Run Benmarking to ensure system meet standard</li>
                 <li>Implementing computer networks, designing and maintaining websites</li>
@@ -40,7 +40,7 @@ const WorkExperiences = () => {
                 <li className="mb-1"><strong>UI/UX Design:</strong> I designed the platform&apos;s dashboard and a new hierarchy system using Figma, focusing on ease of use and simplified navigation.</li>
                 <li className="mb-1"><strong>Front-End Development:</strong>I implemented my designs with Angular and TypeScript, and addressed bugs in both the platform&apos;s logic and front end.</li>
                 <li className="mb-1"><strong>API Documentation:</strong> I used Postman to document API endpoints and created a static website to host these documents, facilitating easier access for developers.</li>
-                <li className="mb-1"><strong>Collaboration and Testing:</strong> I worked closely with hardware's teams and marketing's team to integrate designs and improve platform functionalities based on user feedback.</li>
+                <li className="mb-1"><strong>Collaboration and Testing:</strong> I worked closely with hardware&apos;s teams and marketing&apos;s team to integrate designs and improve platform functionalities based on user feedback.</li>
                 <li className="mb-1"><strong>Adaptation and Learning:</strong> I quickly adapted to new technologies and participated in Agile processes to continually refine our work.</li>
             </ul>  
           </li>

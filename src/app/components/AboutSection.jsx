@@ -224,7 +224,7 @@ const AboutSection = () => {
               active={tab === "othertechs"}
             >
               {" "}
-              Other Software's Skills{" "}
+              Other Software&apos;s Skills{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("certifications")}
