@@ -14,8 +14,8 @@ const WorkExperiences = () => {
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400">Feb 2025 – Present</time>
-            <h3 className="text-lg font-semibold">Software Engineer</h3>
-            <p className="mb-4 text-base font-normal">DockLand VIC (Hybrid)</p>
+            <h3 className="text-lg font-semibold">Software Engineer (ANZ)</h3>
+            <p className="mb-4 text-base font-normal">DockLand Melbourne, VIC (Hybrid)</p>
             <ul className="list-disc pl-5 ml-3 text-sm">
                 <li>Coding, scripting, and participating in design/code reviews</li>
                 <li>Involved in architectural, data model, and business logic discussions</li>
