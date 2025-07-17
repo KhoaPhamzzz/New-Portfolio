@@ -13,7 +13,25 @@ const WorkExperiences = () => {
 
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400">July 2024 – Present</time>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">Feb 2025 – Present</time>
+            <h3 className="text-lg font-semibold">Software Engineer</h3>
+            <p className="mb-4 text-base font-normal">DockLand VIC (Hybrid)</p>
+            <ul className="list-disc pl-5 ml-3 text-sm">
+                <li>Coding, scripting, and participating in design/code reviews</li>
+                <li>Involved in architectural, data model, and business logic discussions</li>
+                <li>Developing and maintaining applications using COBOL, IMS, Assembler, and DB2</li>
+                <li>Interpreting business and technical requirements to deliver efficient solutions</li>
+                <li>Applying coding and analytical skills across the full system development lifecycle</li>
+                <li>Estimating development effort and timelines</li>
+                <li>Automating builds and deployments using CI/CD pipelines</li>
+                <li>Monitoring application performance and supporting continuous improvement</li>
+                <li>Taking on additional tasks and responsibilities as required</li>
+            </ul>  
+          </li>
+
+          <li className="mb-10 ml-6">
+            <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">July 2024 – Jan 2025</time>
             <h3 className="text-lg font-semibold">Junior Technician Hardware Centre Com Adelaide</h3>
             <p className="mb-4 text-base font-normal">Adelaide SA (On-site)</p>
             <ul className="list-disc pl-5 ml-3 text-sm">

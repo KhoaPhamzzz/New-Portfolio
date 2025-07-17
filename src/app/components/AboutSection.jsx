@@ -87,15 +87,6 @@ const TAB_DATA = [
             <Image class="h-[60px] w-[55px]" src={FigmaIcon} alt="Figma Icon" />
             <p class="font-abc small">Figma</p>
         </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            <Image class="h-[60px] w-[55px]" src={PostmanIcon} alt="Postman Icon" />
-            <p class="font-abc small">Postman</p>
-        </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            <Image class="h-[60px] w-[55px]" src={SwaggerIcon} alt="Swagger Icon" />
-            <p class="font-abc small">Swagger</p>
-        </div>
-
     </div>
     ),
   },
@@ -127,6 +118,18 @@ const TAB_DATA = [
         <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
             <Image class="h-[60px] w-[60px]" src={CsharpIcon} alt="C #" />
             <p class="font-abc small">C Sharp</p>
+        </div>
+        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
+            <Image class="h-[60px] w-[55px]" src={PostmanIcon} alt="Postman Icon" />
+            <p class="font-abc small">Postman</p>
+        </div>
+        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
+            <Image class="h-[60px] w-[55px]" src={SwaggerIcon} alt="Swagger Icon" />
+            <p class="font-abc small">Swagger</p>
+        </div>
+        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
+            <Image class="h-[60px] w-[60px]" src={SPSSIcon} alt="IBM Icon" />
+            <p class="text-center font-abc small">Mainframe Technologies</p>
         </div>
     </div>
     ),
